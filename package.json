@@ -3,7 +3,8 @@
   "version": "1.0.0",
   "main": "index.js",
   "scripts": {
-    "test":  "npx cypress run --browser chrome"
+    "pretest": "npx cypress install",
+    "test": "cypress run"
   },
   "keywords": [],
   "author": "",
